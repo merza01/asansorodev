@@ -35,7 +35,7 @@ hareket yok / hatali mevcut/hedef kat / x yonunde y kat gideceksiniz
 
 ## 4. Akış Şeması
 
-![Akış Şeması](docs/akis-semasi.png)
+![Akış Şeması](docs/asansor.pdf)
 
 ## 5. Test Sonuçları
 
