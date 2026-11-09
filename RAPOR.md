@@ -1,29 +1,36 @@
 # Rapor
 
-**Ad Soyad:**
-**Numara:**
+**Ad Soyad:** Merza Züleyha Kulus
+**Numara:** 690
 
 ## 1. Problemin Açıklaması
-<!-- Problemi kendi cümlelerinizle yazın. -->
+Kullanıcının asansor ile hangi yonde , kac kat gidecegini hesaplayan veya hareketin olmadıgını hesaplayan veya hatalı girisleri hesaplayan programi yapiniz
 
 
 ## 2. Girdi - İşlem - Çıktı
 
 **Girdiler:**
--
+hkat(hedefkat) , mkat(mevcutkat)
 
 **İşlemler:**
--
+hkat mkattan buyukse hkat-mkat
+mkat hkattan buyukse mkat-hkat
 
 **Çıktılar:**
--
+hareket yok / hatali mevcut/hedef kat / x yonunde y kat gideceksiniz
 
 ## 3. Sözde Kod (Pseudocode)
 
 ```
-1.
-2.
-3.
+1. Başla
+2. Kullanıcıdan buludugu katı  ve hedef katını alır
+3. Eger Hedef veya mevcut katı hatalıysa ya "gecersiz mevcut kat" yada "gecersiz hedef kat" cıktısını verir(degilse 4.adıma gidin)
+4. Degilse EgerHedef kat mevcut kattan büyükse kac kat gidecegini ogrenmek icin hkat-mkat islemini yol degiskenine atar yon degiskeninede "yukarı" yı atar.(degilse 6.adıma gidin)
+5. Kullanıcıya kac kat gidecegini ve ne yonde gidecegini soyler.
+6. Degilse Eger Mevcut kat hedef kattan buyukse kac kat gidecegini ogrenmek icin mkat-hkat islemini yol degiskenine atar yon degiskeninede "asagi" yi atar.(degilse 8.adıma gidin)
+7. Kullanıcıya kac kat gidecegini ve ne yonde gidecegini soyler.
+8. Degilse Eger mevcut kat ve hedef kat esitse "Hareket yok" cıktısını verir
+9. Bitir
 ```
 
 ## 4. Akış Şeması
